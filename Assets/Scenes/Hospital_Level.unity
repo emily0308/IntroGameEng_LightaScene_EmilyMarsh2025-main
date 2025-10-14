@@ -33706,7 +33706,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 39061c8c52c144a499dd350e6447c913,
         type: 3}
       propertyPath: m_Name
-      value: ghost1
+      value: Ghost Girl
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33715,7 +33715,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1563757616}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 39061c8c52c144a499dd350e6447c913,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2101188551}
   m_SourcePrefab: {fileID: 100100000, guid: 39061c8c52c144a499dd350e6447c913, type: 3}
 --- !u!4 &2101188549 stripped
 Transform:
@@ -33723,6 +33727,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2101188548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2101188550 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 39061c8c52c144a499dd350e6447c913,
+    type: 3}
+  m_PrefabInstance: {fileID: 2101188548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2101188551
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101188550}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a4fbf366a02a46241a01089351af2759, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &2104642471 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4526845779383028992, guid: 8b1b264944235ad4e9fbf6de90402f82,
